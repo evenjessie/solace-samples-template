@@ -3,8 +3,21 @@
 
 {% include head.html %}
 
-<body class="wrap wider">
+{% if jekyll.environment == 'solaceCloud' %}
+    {% include solace-cloud-dependency.html %}
+{% endif %}
+
+<body id="top" class="wrap wider">
+
+    {% if jekyll.environment == 'solaceCloud' %}
+        {% include solace-cloud-header-base.html %}
+    {% endif %}
+
     {{ content }}
+
+    {% if jekyll.environment == 'solaceCloud' %}
+        {% include solace-cloud-footer.html %}
+    {% endif %}
 </body>
 
 </html>

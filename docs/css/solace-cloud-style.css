@@ -104,3 +104,10 @@ body#top {
     url('http://cloud.solace.com/wp-content/uploads/avia_fonts/flaticon/flaticon.ttf') format('truetype'),
     url('http://cloud.solace.com/wp-content/uploads/avia_fonts/flaticon/flaticon.svg#flaticon') format('svg');
 } #top .avia-font-flaticon, body .avia-font-flaticon, html body [data-av_iconfont='flaticon']:before{ font-family: 'flaticon'; }
+
+/*******************************************************************************
+* For Solace cloud example
+*/
+.solace-cloud-padding {
+    padding-right: 300px;
+}
