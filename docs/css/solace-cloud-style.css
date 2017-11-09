@@ -11,9 +11,35 @@ div#wrap_all {
     width: unset;
 }
 
-nav ul a:hover {
-    background-color: rgba(0,0,0,0);
+#top header .container {
+    height: 80px;
+    line-height: 80px;
 }
+
+header nav .list-wrapper {
+    height: 80px;
+    line-height: 80px;
+}
+
+header nav li a {
+    height: 80px !important;
+    line-height: 80px !important;
+    font-family:'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#top .main_menu .menu > li:last-child > a {
+    padding-right: 0 !important;
+}
+
+
+/*.container {*/
+    /*padding-left: 0 !important;*/
+    /*padding-right: 0 !important;*/
+/*}*/
+
+/*nav ul a:hover {*/
+    /*background-color: rgba(0,0,0,0);*/
+/*}*/
 
 /*******************************************************************************
 * Solace cloud sample title
@@ -32,8 +58,12 @@ nav ul a:hover {
 
 .container .title-row {
     margin-top: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
     margin-right: -0.75rem;
+}
+
+.solace-cloud-space {
+    margin-top: 15px;
 }
 
 /*******************************************************************************
@@ -46,6 +76,11 @@ body#top {
 /*******************************************************************************
 * For Solace cloud footer
 */
+
+#top #wrap_all h2 {
+    text-transform: none;
+}
+
 @font-face {font-family: 'entypo-fontello'; font-weight: normal; font-style: normal;
     src: url('http://cloud.solace.com/wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello.eot?v=3');
     src: url('http://cloud.solace.com/wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello.eot?v=3#iefix') format('embedded-opentype'),
