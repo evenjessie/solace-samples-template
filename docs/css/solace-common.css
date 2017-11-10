@@ -170,8 +170,8 @@ aside select {
 aside .nav {
     padding: 10px 0;
     margin: 20px 0;
-    border-top: 1px solid #DDD;
-    border-bottom: 1px solid #DDD;
+    /*border-top: 1px solid #DDD;*/
+    /*border-bottom: 1px solid #DDD;*/
 }
 
 @media only screen and (max-width : 760px) {
@@ -269,9 +269,9 @@ aside .nav {
 h4.navheading {
     text-transform: uppercase;
     padding: 0 0 10px 20px;
-    margin-left: -28px;
+    margin-left: -22px;
     display: inline-block;
-    border-bottom: 1px #c9c9c9 solid;
+    /*border-bottom: 1px #c9c9c9 solid;*/
     font-size: 16px;
 }
 
